@@ -3,6 +3,7 @@ cask_args appdir: "/Applications"
 brew "mas"
 
 mas "Amphetamine", id: 937984704
+mas "DaisyDisk", id: 411643860
 mas "Fantastical", id: 975937182
 mas "Numbers", id: 409203825
 mas "Pages", id: 409201541
@@ -25,6 +26,7 @@ cask "mpv"
 cask "sketch"
 cask "sublime-text"
 cask "tower"
+cask "transmit"
 cask "transmission"
 cask "vlc"
 cask "zoomus"
