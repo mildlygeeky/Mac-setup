@@ -3,10 +3,10 @@ cask_args appdir: "/Applications"
 brew "mas"
 
 mas "Amphetamine", id: 937984704
-mas "DaisyDisk", id: 411643860
 mas "Fantastical", id: 975937182
 mas "Numbers", id: 409203825
 mas "Pages", id: 409201541
+mas "ReadKit", id: 588726889
 mas "Slack", id: 803453959
 mas "Spark", id: 1176895641
 mas "Xcode", id: 497799835
@@ -15,6 +15,7 @@ mas "Yoink", id: 457622435
 cask "1Password"
 cask "alfred"
 cask "bettertouchtool"
+cask "daisydisk"
 cask "discord"
 cask "firefox"
 cask "google-chrome"
