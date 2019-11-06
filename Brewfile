@@ -4,6 +4,7 @@ brew "mas"
 
 mas "Amphetamine", id: 937984704
 mas "Fantastical", id: 975937182
+mas "LG Screen Manager", id: 1142051783
 mas "Numbers", id: 409203825
 mas "Pages", id: 409201541
 mas "ReadKit", id: 588726889
@@ -20,6 +21,7 @@ cask "discord"
 cask "firefox"
 cask "google-chrome"
 cask "handbrake"
+cask "hyper"
 cask "iterm2"
 cask "jetbrains-toolbox"
 cask "kaleidoscope"
