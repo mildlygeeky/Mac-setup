@@ -6,6 +6,7 @@ mas "Amphetamine", id: 937984704
 mas "Drafts", id: 1435957248
 mas "Fantastical", id: 975937182
 mas "LG Screen Manager", id: 1142051783
+mas "Microsoft Remote Desktop 10", id: 1295203466
 mas "Numbers", id: 409203825
 mas "Pages", id: 409201541
 mas "ReadKit", id: 588726889
@@ -28,6 +29,8 @@ cask "makemkv"
 cask "microsoft-office"
 cask "mpv"
 cask "plex-media-player"
+cask "postgres"
+cask "postico"
 cask "sketch"
 cask "sublime-text"
 cask "tower"
