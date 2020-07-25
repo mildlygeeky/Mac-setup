@@ -98,9 +98,9 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-alias trans="transcode-video --mp4 --encoder vt_h264 --burn-subtitle scan --crop"
+alias trans="transcode-video --handbrake-option encoder=x265_10bit --crop auto --preset medium"
 alias trans-uhd="transcode-video --mp4 --encoder x264_10bit --burn-subtitle scan --crop"
-
+alias whatsmyip="dig +short 8gayst.mildlygeeky.com"
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ -f ~/.p10k.zsh ]] && source ~/.p10k.zsh
 export PATH="/usr/local/sbin:$PATH"
@@ -116,3 +116,6 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$(brew --prefix)/opt/nvm/etc/bash_completion" ] && . "$(brew --prefix)/opt/nvm/etc/bash_completion"
 cd ~/Sites
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
+test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
+
