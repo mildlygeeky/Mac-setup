@@ -69,7 +69,16 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git k)
+plugins=(
+  docker
+  git
+  k
+  zsh-syntax-highlighting
+  zsh-autosuggestions
+  bgnotify
+  colored-man-pages
+  yii2
+)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -119,3 +128,6 @@ cd ~/Sites
 
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
 
+eval "$(rbenv init -)"
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
