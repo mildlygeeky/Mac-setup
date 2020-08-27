@@ -39,6 +39,8 @@ cask "transmit"
 cask "vlc"
 cask "zoomus"
 
+brew "dos2unix"
+brew "fzf"
 brew "git"
 brew "terminal-notifier"
 brew "rbenv"
