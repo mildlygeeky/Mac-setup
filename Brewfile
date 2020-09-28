@@ -14,6 +14,7 @@ mas "Yoink",       id: 457622435
 
 cask "1Password"
 cask "alfred"
+cask "balenaetcher"
 cask "bettertouchtool"
 cask "discord"
 cask "docker"
@@ -36,6 +37,7 @@ cask "textual"
 cask "toggl"
 cask "tower"
 cask "transmit"
+cask "viscosity"
 cask "vlc"
 cask "zoomus"
 
