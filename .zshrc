@@ -126,6 +126,8 @@ export NVM_DIR="$HOME/.nvm"
 cd ~/Sites
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
+DISABLE_UPDATE_PROMPT=true
+
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
 
 eval "$(rbenv init -)"
