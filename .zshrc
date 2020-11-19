@@ -75,7 +75,6 @@ plugins=(
   k
   zsh-syntax-highlighting
   zsh-autosuggestions
-  bgnotify
   colored-man-pages
   yii2
 )
@@ -132,4 +131,4 @@ test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell
 
 eval "$(rbenv init -)"
 
-[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+export PATH="/usr/local/opt/python/libexec/bin:/usr/local/bin:$PATH"
