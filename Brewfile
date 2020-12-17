@@ -55,3 +55,4 @@ brew "nvm"
 brew "terminal-notifier"
 brew "rbenv"
 brew "php"
+brew "youtube-dl
