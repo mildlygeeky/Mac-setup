@@ -8,6 +8,7 @@ mas "Amphetamine", id: 937984704
 mas "Backdrop",    id: 411461952
 mas "DaisyDisk",   id: 411643860
 mas "Fantastical", id: 975937182
+mas "MuteKey",     id: 1509590766
 mas "Pages",       id: 409201541
 mas "ReadKit",     id: 588726889
 mas "Sitesucker",  id: 442168834
