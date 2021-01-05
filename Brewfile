@@ -43,8 +43,4 @@ cask "vlc"
 cask "zoomus"
 
 brew "dos2unix"
-brew "git"
-brew "nvm"
-brew "rbenv"
-brew "php"
 brew "youtube-dl
