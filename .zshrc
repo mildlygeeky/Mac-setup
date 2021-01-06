@@ -129,6 +129,4 @@ DISABLE_UPDATE_PROMPT=true
 
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
 
-eval "$(rbenv init -)"
-
 export PATH="/usr/local/opt/python/libexec/bin:/usr/local/bin:$PATH"
