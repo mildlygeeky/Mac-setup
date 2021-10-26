@@ -12,7 +12,7 @@ mas "Slack",       id: 803453959
 mas "Yoink",       id: 457622435
 
 cask "1Password"
-#cask "alfred"
+cask "alfred"
 cask "bettertouchtool"
 cask "discord"
 #cask "docker"
